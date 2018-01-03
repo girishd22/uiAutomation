@@ -19,9 +19,9 @@ public class TestBase {
 	{
 		select(browser);
 		get(url);
-		//String log4jconfpath="log4j.properties";
-		//PropertyConfigurator.configure(log4jconfpath);
-		PropertyConfigurator.configure("log4j.properties");	
+		String log4jconfpath="log4j.properties";
+		PropertyConfigurator.configure(log4jconfpath);
+		//PropertyConfigurator.configure("log4j.properties");	
 		
 	}
 	
